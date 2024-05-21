@@ -1,0 +1,558 @@
+fileFormatVersion: 2
+guid: a17bce1242ca0e94e9a26d0f9e17463d
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: vecteezy_diamond-buttons-for-ui-game-gui-elements_14400818_0
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 2184
+        width: 451
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6dcefa5424ac7347bdd19515f8c4599
+      internalID: -81588243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_diamond-buttons-for-ui-game-gui-elements_14400818_1
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 2184
+        width: 448
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5cfcfe5b028f264fb12d1344eb0e5a1
+      internalID: -1730115142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_diamond-buttons-for-ui-game-gui-elements_14400818_2
+      rect:
+        serializedVersion: 2
+        x: 1507
+        y: 2184
+        width: 447
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36cd0c10fc7e06c429757adf7575f43e
+      internalID: 1965025445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_diamond-buttons-for-ui-game-gui-elements_14400818_3
+      rect:
+        serializedVersion: 2
+        x: 2041
+        y: 2184
+        width: 450
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afd76b4c60701994e827ce47ca745184
+      internalID: 1524710414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_diamond-buttons-for-ui-game-gui-elements_14400818_4
+      rect:
+        serializedVersion: 2
+        x: 2578
+        y: 2184
+        width: 448
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32de279fc4e1773489e2bde48892111b
+      internalID: 1502942115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_diamond-buttons-for-ui-game-gui-elements_14400818_5
+      rect:
+        serializedVersion: 2
+        x: 3112
+        y: 2184
+        width: 448
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94e930c8a1168164aa0390431f1672b7
+      internalID: -1971343676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_diamond-buttons-for-ui-game-gui-elements_14400818_6
+      rect:
+        serializedVersion: 2
+        x: 3647
+        y: 2184
+        width: 450
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffb32cbab6f85c84c8e43a8bf71d46a3
+      internalID: 744148571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_diamond-buttons-for-ui-game-gui-elements_14400818_7
+      rect:
+        serializedVersion: 2
+        x: 4230
+        y: 2184
+        width: 355
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed984c4d794fe1b469d9b7c631279f08
+      internalID: -1535309412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_diamond-buttons-for-ui-game-gui-elements_14400818_8
+      rect:
+        serializedVersion: 2
+        x: 4767
+        y: 2184
+        width: 355
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0268da593addff44595b78c47f905945
+      internalID: -548645507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_diamond-buttons-for-ui-game-gui-elements_14400818_9
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 1471
+        width: 1584
+        height: 492
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7dcd050b70c4fa4dba30fa525d875c8
+      internalID: -214237821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_diamond-buttons-for-ui-game-gui-elements_14400818_10
+      rect:
+        serializedVersion: 2
+        x: 2209
+        y: 755
+        width: 1137
+        height: 1302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f71002b2ea12c74d82f71f58a2627d7
+      internalID: 1730249198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_diamond-buttons-for-ui-game-gui-elements_14400818_11
+      rect:
+        serializedVersion: 2
+        x: 3536
+        y: 1471
+        width: 1584
+        height: 492
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e8a87c63eae4ce459b06709052e3871
+      internalID: 128324631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_diamond-buttons-for-ui-game-gui-elements_14400818_12
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 848
+        width: 1584
+        height: 485
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fa9b613b9fe13844a4d25ca2e466a71
+      internalID: -876140537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_diamond-buttons-for-ui-game-gui-elements_14400818_13
+      rect:
+        serializedVersion: 2
+        x: 3536
+        y: 848
+        width: 1586
+        height: 485
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8c91419b2f58844ab063edd69b80b9b
+      internalID: 1202583680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_diamond-buttons-for-ui-game-gui-elements_14400818_14
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 403
+        width: 2911
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d125203a3ceebb439ea82d22cd00342
+      internalID: 1272916706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_diamond-buttons-for-ui-game-gui-elements_14400818_15
+      rect:
+        serializedVersion: 2
+        x: 3536
+        y: 171
+        width: 428
+        height: 429
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae887da173645b74eba5fb69c2c9e077
+      internalID: 966257295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_diamond-buttons-for-ui-game-gui-elements_14400818_16
+      rect:
+        serializedVersion: 2
+        x: 4027
+        y: 156
+        width: 482
+        height: 461
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 947d9ea3132bec640aab5b61c3d8b50b
+      internalID: 1349082808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_diamond-buttons-for-ui-game-gui-elements_14400818_17
+      rect:
+        serializedVersion: 2
+        x: 4575
+        y: 156
+        width: 545
+        height: 461
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dd30e2763d373b4a8466c01d94b0a08
+      internalID: 973865809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_diamond-buttons-for-ui-game-gui-elements_14400818_18
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 145
+        width: 2911
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 174351103174f1943b95ab36ce20a162
+      internalID: 971853773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 94ba941d45ead43488a55aef8f185ab2
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      vecteezy_diamond-buttons-for-ui-game-gui-elements_14400818_0: -81588243
+      vecteezy_diamond-buttons-for-ui-game-gui-elements_14400818_1: -1730115142
+      vecteezy_diamond-buttons-for-ui-game-gui-elements_14400818_10: 1730249198
+      vecteezy_diamond-buttons-for-ui-game-gui-elements_14400818_11: 128324631
+      vecteezy_diamond-buttons-for-ui-game-gui-elements_14400818_12: -876140537
+      vecteezy_diamond-buttons-for-ui-game-gui-elements_14400818_13: 1202583680
+      vecteezy_diamond-buttons-for-ui-game-gui-elements_14400818_14: 1272916706
+      vecteezy_diamond-buttons-for-ui-game-gui-elements_14400818_15: 966257295
+      vecteezy_diamond-buttons-for-ui-game-gui-elements_14400818_16: 1349082808
+      vecteezy_diamond-buttons-for-ui-game-gui-elements_14400818_17: 973865809
+      vecteezy_diamond-buttons-for-ui-game-gui-elements_14400818_18: 971853773
+      vecteezy_diamond-buttons-for-ui-game-gui-elements_14400818_2: 1965025445
+      vecteezy_diamond-buttons-for-ui-game-gui-elements_14400818_3: 1524710414
+      vecteezy_diamond-buttons-for-ui-game-gui-elements_14400818_4: 1502942115
+      vecteezy_diamond-buttons-for-ui-game-gui-elements_14400818_5: -1971343676
+      vecteezy_diamond-buttons-for-ui-game-gui-elements_14400818_6: 744148571
+      vecteezy_diamond-buttons-for-ui-game-gui-elements_14400818_7: -1535309412
+      vecteezy_diamond-buttons-for-ui-game-gui-elements_14400818_8: -548645507
+      vecteezy_diamond-buttons-for-ui-game-gui-elements_14400818_9: -214237821
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

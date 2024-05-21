@@ -1,0 +1,1724 @@
+fileFormatVersion: 2
+guid: 9408c78acf4de154ea3daa7459b84a84
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "Assets Telas Vit\xF3ria e Derrota_0"
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 2076
+        width: 2821
+        height: 1884
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82b91bc426ee7644cbb81e344d8e5487
+      internalID: -280633198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Assets Telas Vit\xF3ria e Derrota_1"
+      rect:
+        serializedVersion: 2
+        x: 2981
+        y: 3292
+        width: 2985
+        height: 592
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3235bd70b21a1a43b207ed74e9a2afa
+      internalID: 615609901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Assets Telas Vit\xF3ria e Derrota_2"
+      rect:
+        serializedVersion: 2
+        x: 4261
+        y: 3096
+        width: 76
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61678f6fd0b2445419420f6b1060fcac
+      internalID: -1185756497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Assets Telas Vit\xF3ria e Derrota_3"
+      rect:
+        serializedVersion: 2
+        x: 4346
+        y: 3096
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62faad55d67987147a8282c3f4a7039b
+      internalID: -1291444785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Assets Telas Vit\xF3ria e Derrota_4"
+      rect:
+        serializedVersion: 2
+        x: 4425
+        y: 3096
+        width: 71
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef302edf9b7ce6a418dceaca5f0a9e49
+      internalID: -2081858465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Assets Telas Vit\xF3ria e Derrota_5"
+      rect:
+        serializedVersion: 2
+        x: 4504
+        y: 3096
+        width: 74
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4eaba8e07c6d2a4fb16360682dbdbc6
+      internalID: 1145709967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Assets Telas Vit\xF3ria e Derrota_6"
+      rect:
+        serializedVersion: 2
+        x: 4587
+        y: 3096
+        width: 72
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4352985e035aa04e9a32502b89ee80e
+      internalID: 1630700224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Assets Telas Vit\xF3ria e Derrota_7"
+      rect:
+        serializedVersion: 2
+        x: 4264
+        y: 2952
+        width: 76
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc90d8fc3e5fd364bbfb8a25bd151153
+      internalID: -1644660864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Assets Telas Vit\xF3ria e Derrota_8"
+      rect:
+        serializedVersion: 2
+        x: 4346
+        y: 2952
+        width: 76
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92e4e168c26ddaa4881c33e644510fac
+      internalID: 1682581581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Assets Telas Vit\xF3ria e Derrota_9"
+      rect:
+        serializedVersion: 2
+        x: 4428
+        y: 2952
+        width: 76
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f543d2b6ab2c6fe4ba7034b1e1d12003
+      internalID: -1149116424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Assets Telas Vit\xF3ria e Derrota_10"
+      rect:
+        serializedVersion: 2
+        x: 4507
+        y: 2952
+        width: 79
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 771c3028facde5240bfd04ba0635eb28
+      internalID: 1354854772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Assets Telas Vit\xF3ria e Derrota_11"
+      rect:
+        serializedVersion: 2
+        x: 4589
+        y: 2952
+        width: 79
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 953c1a9304296db4881908082de7a7b9
+      internalID: -2054281817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Assets Telas Vit\xF3ria e Derrota_12"
+      rect:
+        serializedVersion: 2
+        x: 3031
+        y: 2782
+        width: 85
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f63745511aeb284fbbeb9ed1455af6b
+      internalID: -1405300024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Assets Telas Vit\xF3ria e Derrota_13"
+      rect:
+        serializedVersion: 2
+        x: 3139
+        y: 2782
+        width: 94
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a64075732bfdfd643a25b7078516411d
+      internalID: -1876184241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Assets Telas Vit\xF3ria e Derrota_14"
+      rect:
+        serializedVersion: 2
+        x: 3248
+        y: 2782
+        width: 93
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95e24ea865bc16c4baa17121b3dc9c92
+      internalID: 1900384599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Assets Telas Vit\xF3ria e Derrota_15"
+      rect:
+        serializedVersion: 2
+        x: 3356
+        y: 2782
+        width: 96
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc3b04bf48112dc4da67a590bd721956
+      internalID: 394960801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Assets Telas Vit\xF3ria e Derrota_16"
+      rect:
+        serializedVersion: 2
+        x: 3476
+        y: 2782
+        width: 85
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b62770c558892b445a4c5f47d46e4434
+      internalID: 468960726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Assets Telas Vit\xF3ria e Derrota_17"
+      rect:
+        serializedVersion: 2
+        x: 3573
+        y: 2782
+        width: 96
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c95f6c28658ce9940bfcdb022f77e140
+      internalID: 470065704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Assets Telas Vit\xF3ria e Derrota_18"
+      rect:
+        serializedVersion: 2
+        x: 3792
+        y: 2782
+        width: 91
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a691bf6845d162408231ae328e5bea2
+      internalID: 1114380585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Assets Telas Vit\xF3ria e Derrota_19"
+      rect:
+        serializedVersion: 2
+        x: 3901
+        y: 2782
+        width: 94
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dcc945e56fa45842aa8a71933e15df0
+      internalID: -1164847996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Assets Telas Vit\xF3ria e Derrota_20"
+      rect:
+        serializedVersion: 2
+        x: 4009
+        y: 2782
+        width: 84
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af6e525a69d0aa3408011de8d15f34be
+      internalID: -1810903975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Assets Telas Vit\xF3ria e Derrota_21"
+      rect:
+        serializedVersion: 2
+        x: 4121
+        y: 2782
+        width: 90
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 826fc087ae8abfb4c95bbd72b2d41276
+      internalID: -348487035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Assets Telas Vit\xF3ria e Derrota_22"
+      rect:
+        serializedVersion: 2
+        x: 4223
+        y: 2782
+        width: 97
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30fc0aa85600dd64085f05e5a20743f1
+      internalID: 783001016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Assets Telas Vit\xF3ria e Derrota_23"
+      rect:
+        serializedVersion: 2
+        x: 4443
+        y: 2782
+        width: 94
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 634e3752c17fc1e4f8f49197f16e300b
+      internalID: -1179506002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Assets Telas Vit\xF3ria e Derrota_24"
+      rect:
+        serializedVersion: 2
+        x: 4551
+        y: 2782
+        width: 85
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c353616ad1945504baa739ed89741260
+      internalID: 145868774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Assets Telas Vit\xF3ria e Derrota_25"
+      rect:
+        serializedVersion: 2
+        x: 4663
+        y: 2782
+        width: 93
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceeb846aa4348a8459e9aadb4a6384a7
+      internalID: -108848245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Assets Telas Vit\xF3ria e Derrota_26"
+      rect:
+        serializedVersion: 2
+        x: 4768
+        y: 2782
+        width: 85
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9956ce33e7ee6b74fad06f190c370e31
+      internalID: -177507504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Assets Telas Vit\xF3ria e Derrota_27"
+      rect:
+        serializedVersion: 2
+        x: 4991
+        y: 2782
+        width: 90
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a869073c9e9169d4c91ca78bed63798a
+      internalID: -1630230007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Assets Telas Vit\xF3ria e Derrota_28"
+      rect:
+        serializedVersion: 2
+        x: 5099
+        y: 2782
+        width: 85
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b96c0c9d1eb32b2468f2ddf51d5f538a
+      internalID: 448326769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Assets Telas Vit\xF3ria e Derrota_29"
+      rect:
+        serializedVersion: 2
+        x: 5205
+        y: 2782
+        width: 93
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db38e32f5840d7841bc0de6f90d97943
+      internalID: 465189936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Assets Telas Vit\xF3ria e Derrota_30"
+      rect:
+        serializedVersion: 2
+        x: 5322
+        y: 2782
+        width: 85
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1729a9e149ee51f4686261a617461e8a
+      internalID: -1888138618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Assets Telas Vit\xF3ria e Derrota_31"
+      rect:
+        serializedVersion: 2
+        x: 5421
+        y: 2782
+        width: 96
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2af74944aaa9934ebc9af3b9e9b7c00
+      internalID: -623585132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Assets Telas Vit\xF3ria e Derrota_32"
+      rect:
+        serializedVersion: 2
+        x: 5530
+        y: 2782
+        width: 96
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f6ad81d341d1df48a4edebaa7c2e9ba
+      internalID: 1287218253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Assets Telas Vit\xF3ria e Derrota_33"
+      rect:
+        serializedVersion: 2
+        x: 5640
+        y: 2782
+        width: 95
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a17012ba0f47bbf4bb38144c343a6d94
+      internalID: 1080240718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Assets Telas Vit\xF3ria e Derrota_34"
+      rect:
+        serializedVersion: 2
+        x: 5747
+        y: 2782
+        width: 84
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd764349dee44a642a17ea816de035e3
+      internalID: 515374197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Assets Telas Vit\xF3ria e Derrota_35"
+      rect:
+        serializedVersion: 2
+        x: 5855
+        y: 2782
+        width: 94
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f70669109e0f203489c9fd4bf724b0b4
+      internalID: -442619075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Assets Telas Vit\xF3ria e Derrota_36"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 51
+        width: 2881
+        height: 1955
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 013d47f969724d44c93f538d6ea0da6e
+      internalID: -2060043252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Assets Telas Vit\xF3ria e Derrota_37"
+      rect:
+        serializedVersion: 2
+        x: 3003
+        y: 1399
+        width: 2997
+        height: 598
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce032dd1d50f61a4f9f3b9e4d5bca16b
+      internalID: 2038197719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Assets Telas Vit\xF3ria e Derrota_38"
+      rect:
+        serializedVersion: 2
+        x: 4258
+        y: 1191
+        width: 79
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57c565da1e8a55b438896c3e28e55c90
+      internalID: 414498229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Assets Telas Vit\xF3ria e Derrota_39"
+      rect:
+        serializedVersion: 2
+        x: 4343
+        y: 1191
+        width: 73
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 742f886f8bd86ec4fb4b4d0005daac9a
+      internalID: -433892792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Assets Telas Vit\xF3ria e Derrota_40"
+      rect:
+        serializedVersion: 2
+        x: 4428
+        y: 1191
+        width: 71
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a68efed8c56f371468e94b8a9e076ebc
+      internalID: -767245111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Assets Telas Vit\xF3ria e Derrota_41"
+      rect:
+        serializedVersion: 2
+        x: 4510
+        y: 1191
+        width: 73
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 832307a7914ee0840b42182bf1d525f0
+      internalID: -29287866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Assets Telas Vit\xF3ria e Derrota_42"
+      rect:
+        serializedVersion: 2
+        x: 4595
+        y: 1191
+        width: 73
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9782f1891f2666d48bdf219a7a5f6b6b
+      internalID: 948225387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Assets Telas Vit\xF3ria e Derrota_43"
+      rect:
+        serializedVersion: 2
+        x: 4262
+        y: 1045
+        width: 78
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65cde266b8a70fd49875bdb8c4fe553d
+      internalID: 1202695092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Assets Telas Vit\xF3ria e Derrota_44"
+      rect:
+        serializedVersion: 2
+        x: 4346
+        y: 1045
+        width: 79
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21069ef9b4081e0469f05d910ae1f77b
+      internalID: 1327053023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Assets Telas Vit\xF3ria e Derrota_45"
+      rect:
+        serializedVersion: 2
+        x: 4431
+        y: 1045
+        width: 79
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a021f20349082b45b88f469ae7d7467
+      internalID: 464383273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Assets Telas Vit\xF3ria e Derrota_46"
+      rect:
+        serializedVersion: 2
+        x: 4514
+        y: 1045
+        width: 80
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35a58b6424db93f48ac03bf17607476b
+      internalID: -1811135390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Assets Telas Vit\xF3ria e Derrota_47"
+      rect:
+        serializedVersion: 2
+        x: 4598
+        y: 1045
+        width: 79
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74fd19f70f1c7a440a23328292645b8f
+      internalID: -1706507990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Assets Telas Vit\xF3ria e Derrota_48"
+      rect:
+        serializedVersion: 2
+        x: 3025
+        y: 825
+        width: 82
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49a21e3f4b3ef6146bc22983dbd7a3ed
+      internalID: 129302707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Assets Telas Vit\xF3ria e Derrota_49"
+      rect:
+        serializedVersion: 2
+        x: 3133
+        y: 825
+        width: 94
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb12055a055e82d4593fbd2f79303ada
+      internalID: -705816584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Assets Telas Vit\xF3ria e Derrota_50"
+      rect:
+        serializedVersion: 2
+        x: 3239
+        y: 825
+        width: 96
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a566033ebbd21740997b031b795287a
+      internalID: -468870326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Assets Telas Vit\xF3ria e Derrota_51"
+      rect:
+        serializedVersion: 2
+        x: 3350
+        y: 825
+        width: 94
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa6dc314131a9ad4db4d5e731b4ff9e8
+      internalID: -1439011469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Assets Telas Vit\xF3ria e Derrota_52"
+      rect:
+        serializedVersion: 2
+        x: 3468
+        y: 825
+        width: 87
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 318d160dc4c58694681bd1b4339c1cc8
+      internalID: 1325229590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Assets Telas Vit\xF3ria e Derrota_53"
+      rect:
+        serializedVersion: 2
+        x: 3565
+        y: 825
+        width: 96
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8222a0554416a6547ae4b81490d6162b
+      internalID: 1401180086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Assets Telas Vit\xF3ria e Derrota_54"
+      rect:
+        serializedVersion: 2
+        x: 3784
+        y: 825
+        width: 93
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c95d6f3424c2f0e4c8221ee78aa98949
+      internalID: -505937350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Assets Telas Vit\xF3ria e Derrota_55"
+      rect:
+        serializedVersion: 2
+        x: 3892
+        y: 825
+        width: 95
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55569e9cb3386d14bbc5a7c373c7eb96
+      internalID: -1356033230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Assets Telas Vit\xF3ria e Derrota_56"
+      rect:
+        serializedVersion: 2
+        x: 4003
+        y: 825
+        width: 82
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25768ce5f6a464e4bb436025c08ce671
+      internalID: -1783968898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Assets Telas Vit\xF3ria e Derrota_57"
+      rect:
+        serializedVersion: 2
+        x: 4115
+        y: 825
+        width: 90
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5466bc23a1c88bc4ebe49c76a3a13dfa
+      internalID: -1191059369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Assets Telas Vit\xF3ria e Derrota_58"
+      rect:
+        serializedVersion: 2
+        x: 4217
+        y: 825
+        width: 97
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66a8e44907f5c8c498b98952499e3168
+      internalID: -248978409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Assets Telas Vit\xF3ria e Derrota_59"
+      rect:
+        serializedVersion: 2
+        x: 4437
+        y: 825
+        width: 94
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0003ff1091d199f4da9fefd430c22ce6
+      internalID: 212947787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Assets Telas Vit\xF3ria e Derrota_60"
+      rect:
+        serializedVersion: 2
+        x: 4545
+        y: 825
+        width: 82
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e8a1b2c9887c51458ea0c0e607a7134
+      internalID: 852480731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Assets Telas Vit\xF3ria e Derrota_61"
+      rect:
+        serializedVersion: 2
+        x: 4654
+        y: 825
+        width: 94
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd6b328057bfa89409d2443633360af9
+      internalID: 763493077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Assets Telas Vit\xF3ria e Derrota_62"
+      rect:
+        serializedVersion: 2
+        x: 4762
+        y: 825
+        width: 84
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08e7825f2e7972345a9a845bfb818c51
+      internalID: -382771476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Assets Telas Vit\xF3ria e Derrota_63"
+      rect:
+        serializedVersion: 2
+        x: 4979
+        y: 825
+        width: 94
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc9ba7d3aef09044d8445501139e8da4
+      internalID: -413581363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Assets Telas Vit\xF3ria e Derrota_64"
+      rect:
+        serializedVersion: 2
+        x: 5087
+        y: 825
+        width: 96
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be99225df1018244a9d728d48fb34253
+      internalID: 1240500186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Assets Telas Vit\xF3ria e Derrota_65"
+      rect:
+        serializedVersion: 2
+        x: 5199
+        y: 825
+        width: 93
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fa279e6767ad794eab46a08e2614ca9
+      internalID: -2130633142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Assets Telas Vit\xF3ria e Derrota_66"
+      rect:
+        serializedVersion: 2
+        x: 5304
+        y: 825
+        width: 97
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f6c1548b09ad6f41b49439181a205e2
+      internalID: -1339604264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Assets Telas Vit\xF3ria e Derrota_67"
+      rect:
+        serializedVersion: 2
+        x: 5416
+        y: 825
+        width: 93
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5a5404ac77a21643bfb8e081aec48f4
+      internalID: -826354452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Assets Telas Vit\xF3ria e Derrota_68"
+      rect:
+        serializedVersion: 2
+        x: 5527
+        y: 825
+        width: 91
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1a36fc85fcb0e74a9513e1182c8703e
+      internalID: -2121674868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Assets Telas Vit\xF3ria e Derrota_69"
+      rect:
+        serializedVersion: 2
+        x: 5632
+        y: 825
+        width: 94
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd9e44412ff0d8442bf1cc240daa1ed3
+      internalID: -1732212177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Assets Telas Vit\xF3ria e Derrota_70"
+      rect:
+        serializedVersion: 2
+        x: 5741
+        y: 825
+        width: 82
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fa9bf4b15e02314ea6d272627051991
+      internalID: 350761816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Assets Telas Vit\xF3ria e Derrota_71"
+      rect:
+        serializedVersion: 2
+        x: 5849
+        y: 825
+        width: 94
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fe9f39b53c80b24794aebf4802b3c30
+      internalID: 1069108764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: e19408cd9ef24eb42b6ec92f972135e6
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      "Assets Telas Vit\xF3ria e Derrota_0": -280633198
+      "Assets Telas Vit\xF3ria e Derrota_1": 615609901
+      "Assets Telas Vit\xF3ria e Derrota_10": 1354854772
+      "Assets Telas Vit\xF3ria e Derrota_11": -2054281817
+      "Assets Telas Vit\xF3ria e Derrota_12": -1405300024
+      "Assets Telas Vit\xF3ria e Derrota_13": -1876184241
+      "Assets Telas Vit\xF3ria e Derrota_14": 1900384599
+      "Assets Telas Vit\xF3ria e Derrota_15": 394960801
+      "Assets Telas Vit\xF3ria e Derrota_16": 468960726
+      "Assets Telas Vit\xF3ria e Derrota_17": 470065704
+      "Assets Telas Vit\xF3ria e Derrota_18": 1114380585
+      "Assets Telas Vit\xF3ria e Derrota_19": -1164847996
+      "Assets Telas Vit\xF3ria e Derrota_2": -1185756497
+      "Assets Telas Vit\xF3ria e Derrota_20": -1810903975
+      "Assets Telas Vit\xF3ria e Derrota_21": -348487035
+      "Assets Telas Vit\xF3ria e Derrota_22": 783001016
+      "Assets Telas Vit\xF3ria e Derrota_23": -1179506002
+      "Assets Telas Vit\xF3ria e Derrota_24": 145868774
+      "Assets Telas Vit\xF3ria e Derrota_25": -108848245
+      "Assets Telas Vit\xF3ria e Derrota_26": -177507504
+      "Assets Telas Vit\xF3ria e Derrota_27": -1630230007
+      "Assets Telas Vit\xF3ria e Derrota_28": 448326769
+      "Assets Telas Vit\xF3ria e Derrota_29": 465189936
+      "Assets Telas Vit\xF3ria e Derrota_3": -1291444785
+      "Assets Telas Vit\xF3ria e Derrota_30": -1888138618
+      "Assets Telas Vit\xF3ria e Derrota_31": -623585132
+      "Assets Telas Vit\xF3ria e Derrota_32": 1287218253
+      "Assets Telas Vit\xF3ria e Derrota_33": 1080240718
+      "Assets Telas Vit\xF3ria e Derrota_34": 515374197
+      "Assets Telas Vit\xF3ria e Derrota_35": -442619075
+      "Assets Telas Vit\xF3ria e Derrota_36": -2060043252
+      "Assets Telas Vit\xF3ria e Derrota_37": 2038197719
+      "Assets Telas Vit\xF3ria e Derrota_38": 414498229
+      "Assets Telas Vit\xF3ria e Derrota_39": -433892792
+      "Assets Telas Vit\xF3ria e Derrota_4": -2081858465
+      "Assets Telas Vit\xF3ria e Derrota_40": -767245111
+      "Assets Telas Vit\xF3ria e Derrota_41": -29287866
+      "Assets Telas Vit\xF3ria e Derrota_42": 948225387
+      "Assets Telas Vit\xF3ria e Derrota_43": 1202695092
+      "Assets Telas Vit\xF3ria e Derrota_44": 1327053023
+      "Assets Telas Vit\xF3ria e Derrota_45": 464383273
+      "Assets Telas Vit\xF3ria e Derrota_46": -1811135390
+      "Assets Telas Vit\xF3ria e Derrota_47": -1706507990
+      "Assets Telas Vit\xF3ria e Derrota_48": 129302707
+      "Assets Telas Vit\xF3ria e Derrota_49": -705816584
+      "Assets Telas Vit\xF3ria e Derrota_5": 1145709967
+      "Assets Telas Vit\xF3ria e Derrota_50": -468870326
+      "Assets Telas Vit\xF3ria e Derrota_51": -1439011469
+      "Assets Telas Vit\xF3ria e Derrota_52": 1325229590
+      "Assets Telas Vit\xF3ria e Derrota_53": 1401180086
+      "Assets Telas Vit\xF3ria e Derrota_54": -505937350
+      "Assets Telas Vit\xF3ria e Derrota_55": -1356033230
+      "Assets Telas Vit\xF3ria e Derrota_56": -1783968898
+      "Assets Telas Vit\xF3ria e Derrota_57": -1191059369
+      "Assets Telas Vit\xF3ria e Derrota_58": -248978409
+      "Assets Telas Vit\xF3ria e Derrota_59": 212947787
+      "Assets Telas Vit\xF3ria e Derrota_6": 1630700224
+      "Assets Telas Vit\xF3ria e Derrota_60": 852480731
+      "Assets Telas Vit\xF3ria e Derrota_61": 763493077
+      "Assets Telas Vit\xF3ria e Derrota_62": -382771476
+      "Assets Telas Vit\xF3ria e Derrota_63": -413581363
+      "Assets Telas Vit\xF3ria e Derrota_64": 1240500186
+      "Assets Telas Vit\xF3ria e Derrota_65": -2130633142
+      "Assets Telas Vit\xF3ria e Derrota_66": -1339604264
+      "Assets Telas Vit\xF3ria e Derrota_67": -826354452
+      "Assets Telas Vit\xF3ria e Derrota_68": -2121674868
+      "Assets Telas Vit\xF3ria e Derrota_69": -1732212177
+      "Assets Telas Vit\xF3ria e Derrota_7": -1644660864
+      "Assets Telas Vit\xF3ria e Derrota_70": 350761816
+      "Assets Telas Vit\xF3ria e Derrota_71": 1069108764
+      "Assets Telas Vit\xF3ria e Derrota_8": 1682581581
+      "Assets Telas Vit\xF3ria e Derrota_9": -1149116424
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
