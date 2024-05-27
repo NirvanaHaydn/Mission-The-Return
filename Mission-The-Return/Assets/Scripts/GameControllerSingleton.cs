@@ -1,11 +1,11 @@
 using UnityEngine;
-using static HUDSingleton;
+using static HUDSingleton;  
 
 public class GameControllerSingleton : MonoBehaviour
 {
     public static GameControllerSingleton instance;
-    private int score = 0;
-    private int life = 100;
+    public int score = 0;
+    public int life = 100;
 
     private void Awake()
     {
@@ -23,7 +23,7 @@ public class GameControllerSingleton : MonoBehaviour
         {
             HUDSingleton.instance.UpdateScore(this.score);  
         }
-        if (this.score == 500) ShowVictory();
+        
         
     }
 
@@ -34,9 +34,24 @@ public class GameControllerSingleton : MonoBehaviour
         {
             HUDSingleton.instance.UpdateLife(life);  
         }
-        if (life <= 0) GameOver();
+        
     }
-
+    public void PauseGame()
+    {
+        
+        
+            Time.timeScale = 0.0f;
+        
+        
+    }
+    public void Reset()
+    {
+        
+        
+            Time.timeScale = 1.0f;
+        
+        
+    }
     private void GameOver()
     {
         Time.timeScale = 0.0f; // Pause game

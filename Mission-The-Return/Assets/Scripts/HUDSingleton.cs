@@ -7,17 +7,17 @@ public class HUDSingleton : MonoBehaviour
    
     
         public static HUDSingleton instance;
-        public Image imgScore;
-        public Image imgLife;
+        public Image lifeImage;
+        public Image scoreImage;
         
         public void UpdateScore(int score)
-        {
-            imgScore.fillAmount =+ score;
+        {   
+            scoreImage.fillAmount = Mathf.Clamp01(score / (float) 500);
         }
 
         public void UpdateLife(int life)
         {
-            imgLife.fillAmount =+ life;
+            lifeImage.fillAmount = Mathf.Clamp01(life/100);
         }
         public void OnApplicationQuit()
         {

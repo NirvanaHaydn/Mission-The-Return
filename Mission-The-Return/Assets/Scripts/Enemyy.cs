@@ -20,8 +20,9 @@ public class Enemyy : MonoBehaviour
             Blink();
             if(life <= 0)
             {
+                
+                GameControllerSingleton.instance.AddScore(5);
                 Destroy(gameObject);
-                GameControllerSingleton.instance.AddScore(50);
             }
         }
     }
