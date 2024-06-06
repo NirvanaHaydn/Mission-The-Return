@@ -42,7 +42,7 @@ public class HUDSingleton : MonoBehaviour
     }   
     public void ShowGameOver()
     {
-        SceneManager.LoadScene("GameOver");
+        SceneManager.LoadScene("Derrota");
     }
     public void ShowVictory()
     {

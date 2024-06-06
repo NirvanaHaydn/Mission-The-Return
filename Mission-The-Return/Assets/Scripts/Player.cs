@@ -5,7 +5,7 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
     Rigidbody rb;
-    public float lifeplayer = 100;
+    public float lifeplayer = 20;
     public float speed = 6.0f;
     public Transform target;
     public GameObject shield;
@@ -70,13 +70,19 @@ public class Player : MonoBehaviour
             case "ShieldOrb":
                 Destroy(other.gameObject);
                 shield.SetActive(true);
+                lifeplayer++;
                 break;
 
             case "EstrelaCarente":
+                lifeplayer--;
                 Destroy(other.gameObject);
                 shield.SetActive(false);
-                //GameControllerSingleton.instance.SetDamage(25);
-                HUDSingleton.instance.LoseLife();
+                if(lifeplayer <= 0)
+                {
+                    HUDSingleton.instance.ShowGameOver();
+                }
+                
+
                 break;
                 
         }

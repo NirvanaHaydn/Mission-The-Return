@@ -2625,7 +2625,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   obj: {fileID: 754985490499280292, guid: ae270fba766234b4095f2bc70dfbd8df, type: 3}
   enabledOnPlay: 1
-  delay: 6
+  delay: 2
   sound: {fileID: 0}
 --- !u!114 &1667072194
 MonoBehaviour:
@@ -3297,7 +3297,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4bd7a67869d85e7468983aca5071abb9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lifeplayer: 100
+  lifeplayer: 12
   speed: 10
   target: {fileID: 1537140153}
   shield: {fileID: 2002623326}

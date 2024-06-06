@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Enemyy : MonoBehaviour
 {
-    public int life = 3;
+    public int life;
     Blinking[] blink;
     void Start()
     {
