@@ -5,10 +5,12 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
     Rigidbody rb;
+    public float lifeplayer = 100;
     public float speed = 6.0f;
     public Transform target;
     public GameObject shield;
-    
+    private float shieldDuration = 2.0f; 
+    private float shieldEndTime = 0.0f;
     const float limitY = 4.0f;
     const float limitX = 8.0f;
     Blinking[] blink;
@@ -19,7 +21,6 @@ public class Player : MonoBehaviour
         blink = gameObject.GetComponentsInChildren<Blinking>();
         
     }
-
     private void Update()
     {
 
@@ -35,10 +36,54 @@ public class Player : MonoBehaviour
 
         Vector3 dir = new Vector3(h, v, 0);
         transform.position += dir * speed * Time.deltaTime;
+
+        if (shield.activeSelf)
+        {
+            shieldEndTime = Time.time + shieldDuration;
+        }
+
+        
+        if (shield.activeSelf && Time.time < shieldEndTime)
+        {
+            
+            return;
+        }
+
+        
+
     }
+
     private void OnCollisionEnter(Collision other)
     {
+
+
         Blink();
+
+        switch (other.gameObject.tag)
+        {
+            case "LifeOrb":
+                Destroy(other.gameObject);
+                shield.SetActive(true);
+                GameControllerSingleton.instance.UpdateScore(15); 
+                break;
+
+            case "ShieldOrb":
+                Destroy(other.gameObject);
+                shield.SetActive(true);
+                break;
+
+            case "EstrelaCarente":
+                Destroy(other.gameObject);
+                shield.SetActive(false);
+                //GameControllerSingleton.instance.SetDamage(25);
+                HUDSingleton.instance.LoseLife();
+                break;
+                
+        }
+
+    
+   
+           /*Blink();
 
         if (other.gameObject.CompareTag("LifeOrb"))
         {
@@ -50,11 +95,16 @@ public class Player : MonoBehaviour
             Destroy(other.gameObject);
             shield.SetActive(true);
         }
-       
-                
-       
-            
-        
+        if (other.gameObject.CompareTag("EstrelaCarente"))
+        {
+            Destroy(other.gameObject);
+            shield.SetActive(false);
+            HUDSingleton.instance.LoseLife();
+        }*/
+
+
+
+
 
     }
     void Blink()

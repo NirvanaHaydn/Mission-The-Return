@@ -1,8 +1,9 @@
 using UnityEngine;
-using static HUDSingleton;  
-
+using UnityEngine.SceneManagement;
+using UnityEngine.UI; 
 public class GameControllerSingleton : MonoBehaviour
 {
+
     public static GameControllerSingleton instance;
     public int score = 0;
     public int life = 100;
@@ -16,23 +17,23 @@ public class GameControllerSingleton : MonoBehaviour
         DontDestroyOnLoad(gameObject);
     }
 
-    public void AddScore(int score)
-    {
+   public void UpdateScore(int score)
+   {
         this.score += score;
         if (HUDSingleton.instance != null)  
         {
-            HUDSingleton.instance.UpdateScore(this.score);  
+            HUDSingleton.instance.AddScore();  
         }
         
         
-    }
+   }
 
     public void SetDamage(int damage)
     {
         life -= damage;
         if (HUDSingleton.instance != null)  
         {
-            HUDSingleton.instance.UpdateLife(life);  
+            HUDSingleton.instance.LoseLife();  
         }
         
     }

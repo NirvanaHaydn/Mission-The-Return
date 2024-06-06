@@ -15,9 +15,9 @@ EditorBuildSettings:
     path: Assets/Scenes/SegundaFase.unity
     guid: 0b543405480085545b19cf5922d44619
   - enabled: 1
-    path: Assets/Scenes/Derrota.unity
-    guid: 646e4f44b3e85334fb7444e12584fd0e
-  - enabled: 1
     path: Assets/Scenes/Vitoria.unity
     guid: eed5531fb00ca3f4187c0e1e20791a8e
+  - enabled: 1
+    path: Assets/Scenes/Derrota.unity
+    guid: 646e4f44b3e85334fb7444e12584fd0e
   m_configObjects: {}

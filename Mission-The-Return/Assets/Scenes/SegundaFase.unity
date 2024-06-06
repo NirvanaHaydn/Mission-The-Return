@@ -181,7 +181,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 96196622}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: gun2
   m_TagString: Untagged
   m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
@@ -792,6 +792,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Nave para texturaN
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46a5da55da8f0ac40b21d0459d659263, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46a5da55da8f0ac40b21d0459d659263, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -801,7 +809,7 @@ PrefabInstance:
       addedObject: {fileID: 1332943639}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 46a5da55da8f0ac40b21d0459d659263, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1332943640}
+      addedObject: {fileID: 1332943642}
   m_SourcePrefab: {fileID: 100100000, guid: 46a5da55da8f0ac40b21d0459d659263, type: 3}
 --- !u!1 &331090144
 GameObject:
@@ -817,9 +825,9 @@ GameObject:
   - component: {fileID: 331090146}
   - component: {fileID: 331090145}
   - component: {fileID: 331090150}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: SpawnerItens
-  m_TagString: Untagged
+  m_TagString: LifeOrb
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1793,6 +1801,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lifeImage: {fileID: 0}
   scoreImage: {fileID: 0}
+  score: 0
+  life: 100
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -2677,7 +2687,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   blinking: 0
   blinkColor: {r: 1, g: 0.033018887, b: 0.033018887, a: 1}
---- !u!65 &1332943640
+--- !u!65 &1332943642
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3028,6 +3038,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lifeImage: {fileID: 1910790980}
   scoreImage: {fileID: 1024427280}
+  score: 0
+  life: 100
 --- !u!114 &1615801008
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3306,7 +3318,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1732550407}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Corpo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3418,7 +3430,7 @@ GameObject:
   - component: {fileID: 1762979952}
   - component: {fileID: 1762979954}
   - component: {fileID: 1762979953}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: gun1
   m_TagString: Untagged
   m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
@@ -3947,7 +3959,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1960863283}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: gun3
   m_TagString: Untagged
   m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
@@ -3981,8 +3993,8 @@ GameObject:
   - component: {fileID: 2002623329}
   - component: {fileID: 2002623328}
   - component: {fileID: 2002623327}
-  m_Layer: 0
-  m_Name: Sphere
+  m_Layer: 8
+  m_Name: Shield
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4085,9 +4097,9 @@ GameObject:
   - component: {fileID: 2074394940}
   - component: {fileID: 2074394942}
   - component: {fileID: 2074394941}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4121,6 +4133,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4bd7a67869d85e7468983aca5071abb9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  lifeplayer: 100
   speed: 10
   target: {fileID: 1537140153}
   shield: {fileID: 2002623326}
@@ -4147,7 +4160,7 @@ Rigidbody:
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
   m_UseGravity: 0
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0

@@ -60,13 +60,33 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -3145969547156960290, guid: 15939001f41a98e48b219ac377aa3886, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 449622442861947331, guid: 15939001f41a98e48b219ac377aa3886, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 15939001f41a98e48b219ac377aa3886, type: 3}
       propertyPath: m_Name
       value: PR_BOX_SHIELD
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 15939001f41a98e48b219ac377aa3886, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 15939001f41a98e48b219ac377aa3886, type: 3}
       propertyPath: m_TagString
       value: ShieldOrb
+      objectReference: {fileID: 0}
+    - target: {fileID: 4372760316503316644, guid: 15939001f41a98e48b219ac377aa3886, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 9037334301188813533, guid: 15939001f41a98e48b219ac377aa3886, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

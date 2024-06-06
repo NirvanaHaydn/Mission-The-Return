@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Enemyy : MonoBehaviour
 {
-    public int life;
+    public int life = 3;
     Blinking[] blink;
     void Start()
     {
@@ -20,8 +20,7 @@ public class Enemyy : MonoBehaviour
             Blink();
             if(life <= 0)
             {
-                
-                GameControllerSingleton.instance.AddScore(5);
+                HUDSingleton.instance.AddScore();
                 Destroy(gameObject);
             }
         }

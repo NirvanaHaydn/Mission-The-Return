@@ -4,32 +4,49 @@ using UnityEngine.SceneManagement;
 
 public class HUDSingleton : MonoBehaviour
 {
-   
-    
-        public static HUDSingleton instance;
-        public Image lifeImage;
-        public Image scoreImage;
-        
-        public void UpdateScore(int score)
-        {   
-            scoreImage.fillAmount = Mathf.Clamp01(score / (float) 500);
+
+    public static HUDSingleton instance;
+    public Image lifeImage;
+    public Image scoreImage;
+    public float score = 0.0f;
+    public float life = 100.0f;
+
+    void Start()
+    {
+        instance = this;
+    }
+
+    public void AddScore()
+    {
+        score = score + 0.05f;
+        scoreImage.fillAmount = score;
+        if (score >= 1.0f)
+        {
+            ShowVictory();
         }
 
-        public void UpdateLife(int life)
+    }
+
+    public void LoseLife()
+    {
+        life = life - 1.0f;
+        lifeImage.fillAmount = life;
+        if(life <= 0)
         {
-            lifeImage.fillAmount = Mathf.Clamp01(life/100);
+            ShowGameOver();
         }
-        public void OnApplicationQuit()
-        {
-            Application.Quit();
-        }   
-        public void ShowGameOver()
-        {
-            SceneManager.LoadScene("GameOver");
-        }
-        public void ShowVictory()
-        {
-            SceneManager.LoadScene("Victory");
-        }
+    }
+    public void OnApplicationQuit()
+    {
+        Application.Quit();
+    }   
+    public void ShowGameOver()
+    {
+        SceneManager.LoadScene("GameOver");
+    }
+    public void ShowVictory()
+    {
+        SceneManager.LoadScene("Vitoria");
+    }
 
 }
