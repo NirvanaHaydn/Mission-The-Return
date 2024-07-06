@@ -20,7 +20,7 @@ public class Enemyy : MonoBehaviour
             Blink();
             if(life <= 0)
             {
-                HUDSingleton.instance.AddScore();
+                HUDNovo.instance.AddScore();
                 Destroy(gameObject);
             }
         }

@@ -1,11 +1,12 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
-public class HUDSingleton : MonoBehaviour
+public class HUDNova : MonoBehaviour
 {
-
-    public static HUDSingleton instance;
+    public static HUDNova instance;
     public Image lifeImage;
     public Image scoreImage;
     public float score = 0.0f;
@@ -24,22 +25,23 @@ public class HUDSingleton : MonoBehaviour
         {
             ShowVictory();
         }
-
+        score = 0.0f;
     }
 
     public void LoseLife()
     {
         life = life - 1.0f;
         lifeImage.fillAmount = life;
-        if(life <= 0)
+        if (life <= 0)
         {
             ShowGameOver();
         }
+        score = 100.0f;
     }
     public void OnApplicationQuit()
     {
         Application.Quit();
-    }   
+    }
     public void ShowGameOver()
     {
         SceneManager.LoadScene("Derrota");

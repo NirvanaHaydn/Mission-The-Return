@@ -79,7 +79,7 @@ public class Player : MonoBehaviour
                 shield.SetActive(false);
                 if(lifeplayer <= 0)
                 {
-                    HUDSingleton.instance.ShowGameOver();
+                    HUDNovo.instance.ShowGameOver();
                 }
                 
 

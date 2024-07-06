@@ -284,42 +284,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 74980024}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 721337717d5db4d4fb9b3474b1d53781, type: 3}
+  m_Script: {fileID: 11500000, guid: 60928bbb0306d7740931aa64cd2fcf35, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   score: 0
   life: 100
---- !u!1 &96196621
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 96196622}
-  m_Layer: 0
-  m_Name: gun2
-  m_TagString: Untagged
-  m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &96196622
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 96196621}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.35, y: 0, z: 1.25}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1732550407}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &123330964
 GameObject:
   m_ObjectHideFlags: 0
@@ -904,6 +873,7 @@ GameObject:
   - component: {fileID: 734082532}
   - component: {fileID: 734082531}
   - component: {fileID: 734082534}
+  - component: {fileID: 734082535}
   m_Layer: 5
   m_Name: CanvasGame
   m_TagString: Untagged
@@ -1006,9 +976,25 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 734082529}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 59f2e2622af59034dbc8cfbffa7cdab5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lifeImage: {fileID: 1458096620}
+  scoreImage: {fileID: 1479057684}
+  score: 0
+  life: 100
+--- !u!114 &734082535
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 734082529}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b199d28e5757771459b18b06f9193816, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   lifeImage: {fileID: 1458096620}
@@ -1214,7 +1200,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 74980026}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: GameControllerSingleton, Assembly-CSharp
         m_MethodName: PauseGame
         m_Mode: 1
@@ -2589,8 +2575,8 @@ GameObject:
   - component: {fileID: 1667072195}
   - component: {fileID: 1667072194}
   - component: {fileID: 1667072193}
-  m_Layer: 0
-  m_Name: SpawnerEnemy (1)
+  m_Layer: 7
+  m_Name: SpawnerAsteroid
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2825,8 +2811,6 @@ Transform:
   m_Children:
   - {fileID: 1969992263}
   - {fileID: 1762979952}
-  - {fileID: 96196622}
-  - {fileID: 1960863283}
   m_Father: {fileID: 2074394940}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1762979951
@@ -3048,37 +3032,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1936552258}
   m_CullTransparentMesh: 1
---- !u!1 &1960863282
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1960863283}
-  m_Layer: 0
-  m_Name: gun3
-  m_TagString: Untagged
-  m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1960863283
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1960863282}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.35, y: 0, z: -1.25}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1732550407}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1969992262 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 543bea59658f7b047b10b0dd35f92431, type: 3}
@@ -3260,7 +3213,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2074394940}
   - component: {fileID: 2074394942}
-  - component: {fileID: 2074394941}
+  - component: {fileID: 2074394943}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -3285,22 +3238,6 @@ Transform:
   - {fileID: 2002623330}
   m_Father: {fileID: 74980025}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2074394941
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2074394939}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4bd7a67869d85e7468983aca5071abb9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  lifeplayer: 12
-  speed: 10
-  target: {fileID: 1537140153}
-  shield: {fileID: 2002623326}
 --- !u!54 &2074394942
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3328,6 +3265,23 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
+--- !u!114 &2074394943
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2074394939}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa81eecc337b3a94c8ebef9652c1ff71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 10
+  energy: 10
+  life: 15
+  target: {fileID: 1537140153}
+  shield: {fileID: 2002623326}
 --- !u!1 &2137719648
 GameObject:
   m_ObjectHideFlags: 0
@@ -3423,7 +3377,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 74980026}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: GameControllerSingleton, Assembly-CSharp
         m_MethodName: Reset
         m_Mode: 1

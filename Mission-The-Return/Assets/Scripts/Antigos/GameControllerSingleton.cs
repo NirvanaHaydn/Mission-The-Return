@@ -20,9 +20,9 @@ public class GameControllerSingleton : MonoBehaviour
    public void UpdateScore(int score)
    {
         this.score += score;
-        if (HUDSingleton.instance != null)  
+        if (HUDNovo.instance != null)  
         {
-            HUDSingleton.instance.AddScore();  
+            HUDNovo.instance.AddScore();  
         }
         
         
@@ -31,9 +31,9 @@ public class GameControllerSingleton : MonoBehaviour
     public void SetDamage(int damage)
     {
         life -= damage;
-        if (HUDSingleton.instance != null)  
+        if (HUDNovo.instance != null)  
         {
-            HUDSingleton.instance.LoseLife();  
+            HUDNovo.instance.LoseLife();  
         }
         
     }
@@ -56,9 +56,9 @@ public class GameControllerSingleton : MonoBehaviour
     private void GameOver()
     {
         Time.timeScale = 0.0f; // Pause game
-        if (HUDSingleton.instance != null)  
+        if (HUDNovo.instance != null)  
         {
-            HUDSingleton.instance.ShowGameOver();  
+            HUDNovo.instance.ShowGameOver();  
         }
         life = 100;
         score = 0;
@@ -67,9 +67,9 @@ public class GameControllerSingleton : MonoBehaviour
     private void ShowVictory()
     {
         Time.timeScale = 0.0f;
-        if (HUDSingleton.instance != null)  
+        if (HUDNovo.instance != null)  
         {
-            HUDSingleton.instance.ShowVictory(); 
+            HUDNovo.instance.ShowVictory(); 
         }
         life = 100;
         score = 0;

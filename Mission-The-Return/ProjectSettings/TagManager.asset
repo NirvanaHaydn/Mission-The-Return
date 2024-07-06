@@ -7,8 +7,7 @@ TagManager:
   - BulletPlayer
   - LifeOrb
   - ShieldOrb
-  - EstrelaCarente
-  - EstelaCarente
+  - Asteroid
   layers:
   - Default
   - TransparentFX
@@ -17,7 +16,7 @@ TagManager:
   - Water
   - UI
   - ShieldOrb
-  - EstrelaCarente
+  - Asteroid
   - Player
   - 
   - 
