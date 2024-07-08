@@ -7,40 +7,63 @@ using UnityEngine.UI;
 public class HUDNova : MonoBehaviour
 {
     public static HUDNova instance;
-    public Image lifeImage;
-    public Image scoreImage;
-    public float score = 0.0f;
-    public float life = 100.0f;
-
+    public int score = 0;
+    public int life = 15;
+    public Text txtLife;
+    public Text txtScore;
+    
     void Start()
     {
         instance = this;
     }
-
     public void AddScore()
     {
-        score = score + 0.05f;
-        scoreImage.fillAmount = score;
-        if (score >= 1.0f)
+        score = score + 5;
+        txtScore.text = " " + score;
+        
+        if (score >= 70)
         {
-            ShowVictory();
+             
+            ShowFaseDois();           
+        } 
+    }
+    public void AddMore()
+    {
+        score = score + 4;
+        txtScore.text = " " + score;
+
+        if (score >= 40)
+        {
+           SceneManager.UnloadSceneAsync("SegundaFase");
+           ShowVictory();
         }
-        score = 0.0f;
+    }
+
+    public void AddLife()
+    {
+        life = life + 4;
+        txtLife.text = " " + life;
+        if(life >= 100)
+        {
+            life--;
+        }
     }
 
     public void LoseLife()
     {
-        life = life - 1.0f;
-        lifeImage.fillAmount = life;
+        life = life - 3;
+        txtLife.text = " " + life;
         if (life <= 0)
         {
-            ShowGameOver();
+            HUDNova.instance.ShowGameOver();
         }
-        score = 100.0f;
     }
+
+    
     public void OnApplicationQuit()
     {
         Application.Quit();
+        Debug.Log("Saiu");
     }
     public void ShowGameOver()
     {
@@ -49,6 +72,15 @@ public class HUDNova : MonoBehaviour
     public void ShowVictory()
     {
         SceneManager.LoadScene("Vitoria");
+    }
+    public void ShowFaseDois()
+    {
+        SceneManager.LoadScene("SegundaFase");
+        SceneManager.SetActiveScene(SceneManager.GetActiveScene());
+    }
+    public void ShowMenu()
+    {
+        SceneManager.LoadScene("Menu");
     }
 
 }

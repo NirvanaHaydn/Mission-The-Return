@@ -8,6 +8,11 @@ TagManager:
   - LifeOrb
   - ShieldOrb
   - Asteroid
+  - EstelaCarente
+  - EstrelaCarente
+  - Enemy
+  - BulletBoss
+  - Boss
   layers:
   - Default
   - TransparentFX
@@ -18,10 +23,10 @@ TagManager:
   - ShieldOrb
   - Asteroid
   - Player
-  - 
-  - 
-  - 
-  - 
+  - BulletPlayer
+  - Enemy
+  - BulletBoss
+  - Boss
   - 
   - 
   - 

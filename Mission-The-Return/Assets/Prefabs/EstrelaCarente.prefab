@@ -17,9 +17,9 @@ GameObject:
   - component: {fileID: 8713884052022207574}
   - component: {fileID: 3012823365286520690}
   - component: {fileID: 5613479244161057631}
-  m_Layer: 7
+  m_Layer: 12
   m_Name: EstrelaCarente
-  m_TagString: EstelaCarente
+  m_TagString: Boss
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33,8 +33,8 @@ Transform:
   m_GameObject: {fileID: 3957953412195920833}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 7.55, y: 3.69, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 7.6579, y: 3.6439, z: 0}
+  m_LocalScale: {x: 8, y: 8, z: 8}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -46,7 +46,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3957953412195920833}
-  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+  m_Mesh: {fileID: -2395190435688716558, guid: c570cc88cce9fa74abff1df3958f4601, type: 3}
 --- !u!23 &6529821217980667715
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -67,7 +67,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 00fc3f2f8e11df84cafb5780072d6329, type: 2}
+  - {fileID: 2100000, guid: 5b4d0c9bed529274c86d0cb67ae8cb1d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -144,7 +144,7 @@ Halo:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3957953412195920833}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Color:
     serializedVersion: 2
     rgba: 4294480648

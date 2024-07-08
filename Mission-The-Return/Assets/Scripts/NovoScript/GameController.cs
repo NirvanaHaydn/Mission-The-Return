@@ -8,7 +8,9 @@ public class GameController : MonoBehaviour
 {
     public static GameController instance;
     public int score = 0;
-    public int life = 100;
+    public int life = 50;
+    public Image lifeImage;
+    public Text txtScore;
 
     private void Awake()
     {
@@ -19,13 +21,13 @@ public class GameController : MonoBehaviour
         DontDestroyOnLoad(gameObject);
         
     }
-
+    
     public void UpdateScore(int score)
     {
         this.score += score;
-        if (HUDNovo.instance != null)
+        if (HUDNova.instance != null)
         {
-            HUDNovo.instance.AddScore();
+            HUDNova.instance.AddScore();
         }
 
         this.score = 0;
@@ -35,9 +37,9 @@ public class GameController : MonoBehaviour
     public void SetDamage(int damage)
     {
         life -= damage;
-        if (HUDNovo.instance != null)
+        if (HUDNova.instance != null)
         {
-            HUDNovo.instance.LoseLife();
+            HUDNova.instance.LoseLife();
         }
         life = 100;
     }
@@ -60,9 +62,9 @@ public class GameController : MonoBehaviour
     private void GameOver()
     {
         Time.timeScale = 0.0f; // Pause game
-        if (HUDNovo.instance != null)
+        if (HUDNova.instance != null)
         {
-            HUDNovo.instance.ShowGameOver();
+            HUDNova.instance.ShowGameOver();
         }
         life = 100;
         score = 0;
@@ -70,10 +72,10 @@ public class GameController : MonoBehaviour
 
     private void ShowVictory()
     {
-        Time.timeScale = 0.0f;
-        if (HUDNovo.instance != null)
+        Time.timeScale = 0.0f; // Pause game
+        if (HUDNova.instance != null)
         {
-            HUDNovo.instance.ShowVictory();
+            HUDNova.instance.ShowVictory();
         }
         life = 100;
         score = 0;
